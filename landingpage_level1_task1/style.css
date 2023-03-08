@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero {
+    background-image: url(assets/bg-hero-image.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+  }
+
+  nav {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+
+  nav div {
+    padding: 0 4rem;
+  }
+
+.main-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: auto;
+}
+
+.tagline{
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main-tag h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.2rem 0 2rem 0;
+    text-align: center;
+}
+
+
+.myButton {
+	background-color:#349e50;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: inherit;
+	font-size:16px;
+	padding:10px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#d4a300;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.main-tag h4 {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.body{
+  margin: 8%;
+}
+.content{
+  margin: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.body-grid{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.face{
+  padding: 5%;
+}
+.face-image{
+  max-height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+.second-bar{
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+
+}
+.second-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header{
+  font-weight: 600;
+}
+
+.footer{
+  margin: 6%;
+  background-image: url(assets/world.svg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.footer-over{
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
